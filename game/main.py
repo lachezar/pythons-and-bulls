@@ -1,6 +1,6 @@
-from error import Error
-from candidate import *
-from answer import *
+from game.error import Error
+from game.candidate import *
+from game.answer import *
 
 
 def game_loop() -> None:

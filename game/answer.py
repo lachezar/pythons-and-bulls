@@ -1,6 +1,6 @@
 from typing import NewType, Self
 from dataclasses import dataclass
-from error import Error
+from game.error import Error
 
 Pythons = NewType("Pythons", int)
 Bulls = NewType("Bulls", int)

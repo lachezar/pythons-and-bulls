@@ -1,7 +1,7 @@
 from typing import Self
 from dataclasses import dataclass
-from answer import *
-from error import Error
+from game.answer import *
+from game.error import Error
 
 
 @dataclass(slots=True, frozen=True)
