@@ -1,0 +1,3 @@
+.mypy*
+.dmypy*
+__pycache__
