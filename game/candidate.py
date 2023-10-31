@@ -47,8 +47,7 @@ class Candidate:
             if len(digits) != 4:
                 return Error("The input must be integer with 4 digits")
             return cls(digits[0], digits[1], digits[2], digits[3]).validate()
-        except Exception as e:
-            print(e)
+        except:
             return Error("The input must be integer")
 
     @classmethod
